@@ -19,7 +19,10 @@ watch(route, () => {
     aria-label="Main navigation">
     <div class="w-full flex flex-col md:flex-row justify-between text-lg">
       <div class="flex justify-between items-center w-full md:mb-0">
-        <NuxtLink :to="'/'" class="font-medium zfix text-xl tracking-wider px-4">FORMWORK STUDIOS</NuxtLink>
+        <NuxtLink :to="'/'" class="font-medium zfix text-xl tracking-wider p-2">
+          <NuxtImg src="/logo.png" height="40" alt="Formwork Studios" />
+        </NuxtLink>
+
         <button @click="toggleMenu" class="hamburger md:hidden zfix my-1" aria-label="Open menu">
           <span :class="['hamburger-line', menuOpen ? 'transform' : 'ml-auto mt-0.5']"></span>
           <span :class="['hamburger-line', menuOpen ? 'transform' : 'ml-auto !w-4']"></span>
@@ -29,22 +32,22 @@ watch(route, () => {
       </div>
       <div class="hidden md:flex">
         <NuxtLink to="/" activeClass="!bg-zinc-700"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800">
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Home</NuxtLink>
         <NuxtLink to="/personal-ai-site" activeClass="!bg-zinc-700"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800">
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Work</NuxtLink>
         <NuxtLink to="/about" prefetch activeClass="!bg-zinc-700"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800">
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           About</NuxtLink>
         <NuxtLink to="/projects" prefetch activeClass="!bg-zinc-700"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800">
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Services</NuxtLink>
         <NuxtLink to="/blog" prefetch activeClass="!bg-zinc-700"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800">
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Blog</NuxtLink>
         <NuxtLink to="/contact" activeClass="underline"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-rose-800 bg-rose-500"
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex"
           prefetch>Contact</NuxtLink>
       </div>
       <div id="mobile-nav"
@@ -52,7 +55,7 @@ watch(route, () => {
         class="fixed inset-0 bg-gradient-to-bl from-stone-950 to-stone-900 flex flex-col items-start px-4 justify-center  space-y-8 transition-opacity duration-300 ease-in-out pt-0 text-2xl h-screen max-h-screen">
         <div class="flex flex-col items-start gap-8 -mt-8 pb-8">
           <NuxtLink to="/" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide">Home</NuxtLink>
+            class="hover:underline transition-all duration-100 text-center tracking-wide">Homelkj</NuxtLink>
           <NuxtLink to="/personal-ai-site" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Work</NuxtLink>
           <NuxtLink to="/about" activeClass="underline"

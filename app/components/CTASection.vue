@@ -8,7 +8,7 @@
       <UButton color="primary" class="mt-4 max-w-max">Contact Us</UButton>
     </div>
     <div>
-      <NuxtImg class="max-w-2xl rounded-2xl border-2 border-white" src="nyc-subway-n-train.png" />
+      <NuxtImg class="max-w-2xl rounded-2xl border-2 border-white" src="/nyc-subway-n-train.png" />
     </div>
   </UContainer>
 </template>

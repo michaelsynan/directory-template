@@ -11,6 +11,7 @@ import AboutSection from '~/components/AboutSection.vue';
     <AboutSection />
     <CTASection />
     <ContactCTASection />
+    <ProjectSlider />
     <TestimonialSection />
     <MainFooter />
   </div>
