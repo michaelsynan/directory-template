@@ -9,7 +9,8 @@ const cards = [
 
 <template>
   <UContainer class="flex justify-center items-center space-x-10 py-10">
-    <UCard v-for="(card, index) in cards" :key="index" class="flex-auto bg-transparent text-white border-2">
+    <UCard v-for="(card, index) in cards" :key="index"
+      class="flex-auto bg-transparent text-white border-2 hover:shadow-lg transition-all hover:shadow-fuchsia-800">
       <template #header>
         <div class="h-8 p-2 rounded flex items-center justify-between">
           {{ card.header }}
