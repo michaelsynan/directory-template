@@ -1,33 +1,36 @@
 <script setup>
-
 const cards = [
-  { header: 'Header 1', content: 'This is content for Card 1', buttonLabel: 'Click Me 1', buttonLink: 'https://link1.com' },
-  { header: 'Header 2', content: 'This is content for Card 2', buttonLabel: 'Click Me 2', buttonLink: 'https://link2.com' },
-  { header: 'Header 3', content: 'This is content for Card 3', buttonLabel: 'Click Me 3', buttonLink: 'https://link3.com' }
+  { header: 'Elegant & Modern Design', content: 'We use cutting-edge technology and custom design systems to ensure our products are both visually appealing and highly functional, setting new industry standards.', buttonLabel: 'Learn More', buttonLink: 'https://link1.com', icon: 'i-heroicons-wrench-screwdriver' },
+  { header: 'Targeted Marketing', content: 'We use the latest systems and strategies to deliver ads to your ideal user, enhancing the precision and efficiency of your campaigns to boost conversion rates.', buttonLabel: 'Learn More', buttonLink: 'https://link2.com', icon: 'i-heroicons-computer-desktop' },
+  { header: 'AI-Driven Solutions', content: 'Cut costs, increase leads, and optimize workflows with our AI Tool Kit, which leverages advanced analytics to streamline operations and drive business growth.', buttonLabel: 'Learn More', buttonLink: 'https://link3.com', icon: 'i-heroicons-cog' }
 ];
 </script>
 
 <template>
-  <UContainer class="flex justify-center items-center space-x-10 py-10">
-    <UCard v-for="(card, index) in cards" :key="index" class="flex-auto bg-transparent text-white border-2">
-      <template #header>
-        <div class="h-8 p-2 rounded flex items-center justify-between">
-          {{ card.header }}
-          <UIcon name="i-heroicons-light-bulb" class="w-5 h-5" />
+  <UContainer class="flex justify-center items-stretch space-x-10 py-10 mb-20 flex-col">
+    <div class="flex justify-center pb-16">
+      <h2 class="text-4xl text-white font-bold">The Solutions You're Looking For</h2>
+    </div>
+    <div class="flex flex-row justify-center items-stretch space-x-10">
+      <UCard v-for="(card, index) in cards" :key="index"
+        class="flex-1 basis-1/3 bg-transparent text-white bg-stone-800">
+        <template #header>
+          <h2 class="h-8 p-2 rounded flex items-center gap-4 text-lg font-bold">
+            <UIcon :name="card.icon" class="w-6 h-6" />
+            {{ card.header }}
+          </h2>
+        </template>
+        <div class="h-32 p-4 mb-4 break-words">
+          {{ card.content }}
         </div>
-      </template>
-
-      <div class="h-32 p-4">
-        {{ card.content }}
-      </div>
-
-      <template #footer>
-        <div class="h-8 p-2 rounded flex justify-between items-center">
-          <UButton :to="card.buttonLink" target="_blank" color="primary" variant="solid">
-            {{ card.buttonLabel }}
-          </UButton>
-        </div>
-      </template>
-    </UCard>
+        <template #footer>
+          <div class="h-8 p-2 rounded flex justify-between items-center">
+            <UButton :to="card.buttonLink" target="_blank" color="primary" variant="solid">
+              {{ card.buttonLabel }}
+            </UButton>
+          </div>
+        </template>
+      </UCard>
+    </div>
   </UContainer>
 </template>

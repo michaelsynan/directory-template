@@ -5,14 +5,12 @@ import AboutSection from '~/components/AboutSection.vue';
 
 <template>
   <div class="bg-stone-950">
-    <NavBar />
     <HeroSection />
     <ProblemSection />
     <AboutSection />
-    <CTASection />
     <ContactCTASection />
-    <ProjectSlider />
     <TestimonialSection />
+    <LeadMag />
     <MainFooter />
   </div>
 </template>

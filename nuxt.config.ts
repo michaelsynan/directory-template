@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  modules: ["@nuxt/ui", "@nuxt/image", "nuxt-swiper"],
+  modules: ["@nuxt/ui", "@nuxt/image"],
   colorMode: {
     preference: "dark",
   },

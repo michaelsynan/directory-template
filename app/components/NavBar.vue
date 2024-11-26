@@ -34,13 +34,13 @@ watch(route, () => {
         <NuxtLink to="/" activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Home</NuxtLink>
-        <NuxtLink to="/personal-ai-site" activeClass="!bg-zinc-700"
+        <NuxtLink to="/work" activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Work</NuxtLink>
         <NuxtLink to="/about" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           About</NuxtLink>
-        <NuxtLink to="/projects" prefetch activeClass="!bg-zinc-700"
+        <NuxtLink to="/services" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Services</NuxtLink>
         <NuxtLink to="/blog" prefetch activeClass="!bg-zinc-700"
@@ -55,12 +55,12 @@ watch(route, () => {
         class="fixed inset-0 bg-gradient-to-bl from-stone-950 to-stone-900 flex flex-col items-start px-4 justify-center  space-y-8 transition-opacity duration-300 ease-in-out pt-0 text-2xl h-screen max-h-screen">
         <div class="flex flex-col items-start gap-8 -mt-8 pb-8">
           <NuxtLink to="/" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide">Homelkj</NuxtLink>
-          <NuxtLink to="/personal-ai-site" activeClass="underline"
+            class="hover:underline transition-all duration-100 text-center tracking-wide">Home</NuxtLink>
+          <NuxtLink to="/work" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Work</NuxtLink>
           <NuxtLink to="/about" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>About</NuxtLink>
-          <NuxtLink to="/projects" activeClass="underline"
+          <NuxtLink to="/services" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Services</NuxtLink>
           <NuxtLink to="/blog" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Blog</NuxtLink>
