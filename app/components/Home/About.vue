@@ -12,7 +12,7 @@ const cards = [
       <h2 class="text-4xl text-white font-bold">The Solutions You're Looking For</h2>
     </div>
     <div class="flex flex-row justify-center items-stretch space-x-10">
-      <UCard v-for="(card, index) in cards" :key="index" class="flex-1 basis-1/3 bg-transparent text-white" :ui="{
+      <UCard v-for="(card, index) in cards" :key="index" class="group flex-1 basis-1/3 bg-transparent text-white" :ui="{
         background: 'bg-white dark:bg-stone-900',
         divide: 'divide-y divide-stone-200 dark:divide-stone-800',
         ring: 'ring-1 ring-stone-200 dark:ring-stone-800',
@@ -20,7 +20,7 @@ const cards = [
       }">
         <template #header>
           <h2 class="h-8 p-2 rounded flex items-center gap-4 text-lg font-bold">
-            <UIcon :name="card.icon" class="w-6 h-6" />
+            <UIcon :name="card.icon" class="w-6 h-6 group-hover:text-juju-400 transition-all" />
             {{ card.header }}
           </h2>
         </template>

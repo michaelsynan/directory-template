@@ -14,7 +14,7 @@
           </UInput>
         </div>
         <div class="py-2">
-          <UButton size="lg" class="my-2">Get My Free Guide
+          <UButton icon="i-mdi-download" size="lg" class="my-2">Get My Free Guide
           </UButton>
         </div>
       </div>
