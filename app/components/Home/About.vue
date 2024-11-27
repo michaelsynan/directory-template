@@ -13,14 +13,14 @@ const cards = [
     </div>
     <div class="flex flex-row justify-center items-stretch space-x-10">
       <UCard v-for="(card, index) in cards" :key="index" class="group flex-1 basis-1/3 bg-transparent text-white" :ui="{
-        background: 'bg-white dark:bg-stone-900',
-        divide: 'divide-y divide-stone-200 dark:divide-stone-800',
-        ring: 'ring-1 ring-stone-200 dark:ring-stone-800',
+        background: 'bg-white dark:bg-stone-900 dark:hover:bg-stone-800 transition-all',
+        divide: 'divide-y divide-stone-200 dark:divide-stone-800 dark:hover:divide-stone-700 transition-all',
+        ring: 'ring-1 ring-stone-200 dark:ring-stone-800 dark:hover:ring-juju-400 transition-all',
         rounded: 'rounded-lg',
       }">
         <template #header>
           <h2 class="h-8 p-2 rounded flex items-center gap-4 text-lg font-bold">
-            <UIcon :name="card.icon" class="w-6 h-6 group-hover:text-juju-400 transition-all" />
+            <UIcon :name="card.icon" class="w-6 h-6" />
             {{ card.header }}
           </h2>
         </template>
