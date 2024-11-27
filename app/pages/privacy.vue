@@ -2,9 +2,7 @@
 
 <template>
   <div>
-    <UContainer class="text-white p-10">
-      Contact
-    </UContainer>
+    Page: privacy
   </div>
 </template>
 

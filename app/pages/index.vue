@@ -1,17 +1,9 @@
-<script setup lang="ts">
-import AboutSection from '~/components/AboutSection.vue';
-
-</script>
-
 <template>
   <div>
-    <HeroSection />
-    <ProblemSection />
-    <AboutSection />
-    <ContactCTASection />
-    <TestimonialSection />
-    <LeadMag />
-    <FAQSection />
-
+    <HomeHero />
+    <HomeChallenge />
+    <HomeAbout />
+    <HomeLeads />
+    <HomeFAQ />
   </div>
 </template>
