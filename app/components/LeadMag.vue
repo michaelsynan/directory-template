@@ -1,28 +1,32 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex justify-center items-center space-x-20 py-32">
-    <div class="text-white flex flex-col gap-4">
+  <UContainer class="flex justify-center items-center space-x-40 py-32">
+    <div class="text-white flex flex-col gap-2 max-w-md">
       <h2 class="text-4xl font-bold flex flex-col gap-1.5 mb-4">
-        <div>Choosing the Right</div>
-        <div>Technology isn't Easy</div>
-      </h2>
+        <div>Download Our Free Guide to Using AI and Automation to Build your Business</div>
 
-      <!-- Bullet Points Section -->
-      <ul class="space-y-3 text-lg">
-        <li class="flex items-center">
-          <UIcon name="i-heroicons-exclamation-circle" class="w-5 h-5 mr-2 text-dino-500"></UIcon>
-          <span>Too many high-cost subscriptions</span>
-        </li>
-        <li class="flex items-center">
-          <UIcon name="i-heroicons-exclamation-circle" class="w-5 h-5 mr-2 text-dino-500"></UIcon>
-          <span>Unclear way to measure results</span>
-        </li>
-        <li class="flex items-center">
-          <UIcon name="i-heroicons-exclamation-circle" class="w-5 h-5 mr-2 text-dino-500"></UIcon>
-          <span>Unreliable & untrustworthy marketers</span>
-        </li>
-      </ul>
+      </h2>
+      <div class="flex flex-col gap-0">
+        <div class="flex flex-col items-start w-full">
+          <label class="mb-1 text-sm font-medium text-gray-700">Email Address</label>
+          <UInput class="w-full" size="lg" type="text" color="primary" variant="outline"
+            placeholder="e.g. bill.gates@microsoft.com">
+          </UInput>
+        </div>
+
+        <div class="py-2">
+          <UButton size="lg" class="my-2">Get My Free Guide
+
+          </UButton>
+        </div>
+      </div>
+      <div class="flex items-center text-sm text-stone-500 gap-1">
+        <UIcon name="i-material-symbols:asterisk-rounded" class="h-4 w-4" />
+        We do not share your personal information
+      </div>
+
+
     </div>
 
     <div class="">
@@ -30,5 +34,3 @@
     </div>
   </UContainer>
 </template>
-
-<style scoped></style>

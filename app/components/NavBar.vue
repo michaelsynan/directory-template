@@ -20,7 +20,7 @@ watch(route, () => {
     <div class="w-full flex flex-col md:flex-row justify-between text-lg">
       <div class="flex justify-between items-center w-full md:mb-0">
         <NuxtLink :to="'/'" class="font-medium zfix text-xl tracking-wider p-2">
-          <NuxtImg src="/logo.png" height="40" alt="Formwork Studios" />
+          <NuxtImg src="/logo.png" height="30" alt="Formwork Studios" />
         </NuxtLink>
 
         <button @click="toggleMenu" class="hamburger md:hidden zfix my-1" aria-label="Open menu">

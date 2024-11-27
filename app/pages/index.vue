@@ -4,13 +4,14 @@ import AboutSection from '~/components/AboutSection.vue';
 </script>
 
 <template>
-  <div class="bg-stone-950">
+  <div>
     <HeroSection />
     <ProblemSection />
     <AboutSection />
     <ContactCTASection />
     <TestimonialSection />
     <LeadMag />
-    <MainFooter />
+    <FAQSection />
+
   </div>
 </template>
