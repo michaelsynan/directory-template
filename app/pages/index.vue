@@ -4,6 +4,7 @@
     <HomeChallenge />
     <HomeAbout />
     <HomeLeads />
+    <HomeProfiles />
     <HomeTestimonials />
     <HomeFAQ />
     <HomeClosingCTA />
