@@ -47,8 +47,8 @@ watch(route, () => {
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Blog</NuxtLink>
         <NuxtLink to="/contact" activeClass="underline"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex"
-          prefetch>Contact</NuxtLink>
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex min-w-max font-bold"
+          prefetch>Book Now</NuxtLink>
       </div>
       <div id="mobile-nav"
         :class="{ 'opacity-0 pointer-events-none': !menuOpen, 'opacity-100 pointer-events-auto': menuOpen }"

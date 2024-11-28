@@ -6,3 +6,17 @@ h5,
 h6 {
   font-family: "Work Sans", sans-serif;
 }
+
+p,
+button,
+span {
+  font-family: Inter;
+}
+
+/* p {
+  font-family: Roboto;
+} */
+
+/* body {
+  font-family: "source sans pro", sans-serif;
+} */

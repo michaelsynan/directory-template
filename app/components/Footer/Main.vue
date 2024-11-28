@@ -1,8 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="border-t">
-    <UContainer class="text-white py-10 flex flex-col items-center gap-10 justify-between">
+  <div class="border-t border-stone-500">
+    <UContainer class="text-white pt-12 pb-8 flex flex-col items-center gap-10 justify-between">
       <div>
         <NuxtImg src="/formwork-studios-logo-text.png" height="30" alt="Formwork Studios" />
       </div>
