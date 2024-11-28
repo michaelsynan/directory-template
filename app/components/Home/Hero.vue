@@ -17,7 +17,7 @@
         <h1 class="text-6xl text-primary-500">We Build It</h1>
       </div>
       <p class="text-white text-xl mt-2">Cutting-edge design and development solutions.</p>
-      <UButton color="primary" size="lg" class="mt-4 font-bold text-white" icon="i-heroicons-rocket-launch-16-solid">
+      <UButton color="primary" size="lg" class="mt-4 font-bold text-white" icon="i-heroicons-calendar-16-solid">
         Book
         My Free Strategy Session
       </UButton>

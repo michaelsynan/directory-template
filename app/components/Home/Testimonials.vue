@@ -5,14 +5,14 @@ interface Testimonial {
 }
 
 const testimonials: Testimonial[] = [
-  { name: "John Doe", text: "This is an amazing service!" },
-  { name: "Jane Smith", text: "Absolutely wonderful experience!" },
-  { name: "Chris Lee", text: "Highly recommend their expertise." }
+  { name: "Sergio Uzrin", text: "Solid webdesigner, clearly has years of experience. Was up to date with current trends on functionality as well as design." },
+  { name: "Jane Smith", text: "Michael has really helped with our marketing and advertising operations! We are running ads on meta, Amazon, and google which have led to increased revenues." },
+  { name: "Chris Lee", text: "They were really informative and helpful, hard working and efficient." }
 ];
 </script>
 
 <template>
-  <UContainer class="flex flex-wrap justify-center items-center py-32">
+  <UContainer class="flex flex-wrap justify-center items-start py-32">
     <HomeTestimonial v-for="(testimonial, index) in testimonials" :key="index" :name="testimonial.name"
       :text="testimonial.text" />
   </UContainer>
