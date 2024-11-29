@@ -47,7 +47,7 @@ watch(route, () => {
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Blog</NuxtLink>
         <NuxtLink to="/contact" activeClass="underline"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex min-w-max "
+          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex min-w-max  booking-button"
           prefetch>Book Now</NuxtLink>
       </div>
       <div id="mobile-nav"
@@ -73,6 +73,31 @@ watch(route, () => {
 </template>
 
 <style scoped>
+@keyframes colorShift {
+
+  0%,
+  10% {
+    background-color: #0f766b;
+    /* original color */
+  }
+
+  5% {
+    background-color: #29bfb0;
+    /* slightly darker */
+  }
+
+  95%,
+  100% {
+    background-color: #0f766b;
+    /* returns to original */
+  }
+}
+
+.booking-button {
+  animation: colorShift 35s infinite;
+}
+
+
 .zfix {
   z-index: 100000 !important;
 }
