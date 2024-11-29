@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-stone-950">
-    <NavBar />
-    <NuxtPage />
+  <NavBar />
+  <NuxtPage />
+  <footer>
     <FooterWrapper />
-  </div>
+  </footer>
 </template>

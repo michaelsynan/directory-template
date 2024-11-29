@@ -1,15 +1,16 @@
 <template>
-  <div>
-    <HomeHero />
-    <div class="flex flex-col gap-44 mt-10 mb-20">
+  <div id="home-page">
+    <header>
+      <HomeHero />
+    </header>
+    <main class="flex flex-col gap-44 mt-10 mb-20">
       <HomeProblem />
       <HomeAbout />
       <HomeProcess />
-
       <HomeLeads />
       <HomeProfiles />
       <HomeTestimonials />
       <HomeFAQ />
-    </div>
+    </main>
   </div>
 </template>

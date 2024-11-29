@@ -1,5 +1,5 @@
 <template>
-  <div class="relative py-20 h-[60vh]"
+  <div class="relative h-[60vh]"
     style="background-image: url('china-town-nyc.jpg'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center calc(100% + 60px);">
 
     <!-- Black overlay -->
