@@ -12,7 +12,7 @@ const cards = [
       <h2 class="text-4xl text-white font-bold">The Solutions You're Looking For</h2>
     </div>
     <div class="flex flex-row justify-center items-stretch space-x-10">
-      <UCard v-for="(card, index) in cards" :key="index" class="group flex-1 basis-1/3 bg-transparent text-white" :ui="{
+      <UCard v-for="(card, index) in cards" :key="index" class="flex-1 basis-1/3 bg-transparent text-white" :ui="{
         background: 'bg-white dark:bg-stone-900 dark:hover:bg-stone-800 transition-all',
         divide: 'divide-y divide-stone-200 dark:divide-stone-800 dark:hover:divide-stone-700 transition-all',
         ring: 'ring-1 ring-stone-200 dark:ring-stone-800 dark:hover:ring-juju-400 transition-all',

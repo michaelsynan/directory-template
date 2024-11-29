@@ -12,7 +12,7 @@
     <!-- Content -->
     <UContainer class="relative z-10 flex flex-col items-start justify-center h-full gap-4">
       <UBadge color="dino" variant="outline" class="font-bold border-none hidden">Let's Work</UBadge>
-      <div class="font-bold flex flex-col gap-3">
+      <div class="font-bold flex flex-col gap-4">
         <h1 class="text-white text-6xl">From Design to Marketing</h1>
         <h1 class="text-6xl text-primary-500">We Build It</h1>
       </div>

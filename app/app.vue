@@ -2,6 +2,6 @@
   <div class="bg-stone-950">
     <NavBar />
     <NuxtPage />
-    <FooterMain />
+    <FooterWrapper />
   </div>
 </template>
