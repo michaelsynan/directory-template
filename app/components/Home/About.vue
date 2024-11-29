@@ -7,9 +7,9 @@ const cards = [
 </script>
 
 <template>
-  <UContainer class="flex justify-center items-stretch space-x-10 py-10 mb-20 flex-col">
+  <UContainer class="flex justify-center items-stretch space-x-10 flex-col">
     <div class="flex justify-center pb-16">
-      <h2 class="text-4xl text-white font-bold">The Solutions You're Looking For</h2>
+      <h2>The <span class="cool-underline">Solutions</span> You're Looking For</h2>
     </div>
     <div class="flex flex-row justify-center items-stretch space-x-10">
       <UCard v-for="(card, index) in cards" :key="index" class="flex-1 basis-1/3 bg-transparent text-white" :ui="{
@@ -19,10 +19,10 @@ const cards = [
         rounded: 'rounded-lg',
       }">
         <template #header>
-          <h2 class="h-8 p-2 rounded flex items-center gap-4 text-lg font-bold">
+          <h3 class="h-8 p-2 rounded flex items-center gap-4 text-lg">
             <UIcon :name="card.icon" class="w-6 h-6" />
             {{ card.header }}
-          </h2>
+          </h3>
         </template>
         <div class="h-32 p-4 mb-4 break-words">
           {{ card.content }}

@@ -13,8 +13,8 @@ const profiles: Profile[] = [
 
 
 <template>
-  <UContainer class="flex flex-col justify-center items-center py-32">
-    <h2 class="text-4xl pb-16 font-bold">Meet the Team</h2>
+  <UContainer class="flex flex-col justify-center items-center">
+    <h2 class="pb-16">Meet the Team</h2>
     <div class="flex flex-row items-start gap-10">
       <HomeProfile v-for="(profile, index) in profiles" :key="index" :name="profile.name" :text="profile.text"
         :image="profile.image" class="w-1/2" />

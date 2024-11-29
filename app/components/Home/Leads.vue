@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex justify-center items-center space-x-40 py-32">
+  <UContainer class="flex justify-center items-center space-x-40">
     <div class="text-white flex flex-col gap-2 max-w-md">
-      <h2 class="text-4xl font-bold flex flex-col gap-1.5 mb-4 leading-snug">
+      <h2 class="flex flex-col gap-1.5 mb-4 leading-snug">
         <div>Download Our Free Guide to Using AI and Automation to Build your Business</div>
       </h2>
       <div class="flex flex-col gap-0">

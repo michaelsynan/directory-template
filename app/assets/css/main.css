@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-4xl font-bold;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -11,6 +21,23 @@ p,
 button,
 span {
   font-family: Inter;
+}
+
+.cool-underline {
+  position: relative;
+  display: inline-block; /* Makes the span conform to the content's width */
+}
+
+.cool-underline::after {
+  content: "";
+  display: block;
+  width: 100%; /* This now refers to the span's content width, not the container */
+  height: 3px;
+  background-color: #f9a8d4;
+  margin-top: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem; /* Adjust this value based on your design needs */
 }
 
 /* p {

@@ -1,12 +1,14 @@
 <template>
   <div>
     <HomeHero />
-    <HomeChallenge />
-    <HomeAbout />
-    <HomeLeads />
-    <HomeProfiles />
-    <HomeTestimonials />
-    <HomeFAQ />
-    <HomeClosingCTA />
+    <div class="flex flex-col gap-44 mt-10 mb-20">
+      <HomeProblem />
+      <HomeAbout />
+      <HomeLeads />
+      <HomeProfiles />
+      <HomeTestimonials />
+      <HomeProcess />
+      <HomeFAQ />
+    </div>
   </div>
 </template>

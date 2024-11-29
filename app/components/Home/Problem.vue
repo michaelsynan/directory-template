@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex justify-center items-start py-10 mb-20 space-x-20">
+  <UContainer class="flex justify-center items-start space-x-20">
     <div class="text-white flex flex-col gap-4">
-      <h2 class="text-4xl font-bold flex flex-col gap-1.5 mb-4">
+      <h2 class="flex flex-col gap-1.5 mb-4">
         <div class="leading-normal">Choosing the Right<br />
           Technology isn't Easy</div>
       </h2>

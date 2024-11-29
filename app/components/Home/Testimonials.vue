@@ -12,10 +12,10 @@ const testimonials: Testimonial[] = [
 </script>
 
 <template>
-  <UContainer class="flex flex-wrap justify-center items-start py-20 mb-20">
+  <UContainer class="flex flex-wrap justify-center items-start">
     <HomeTestimonial v-for="(testimonial, index) in testimonials" :key="index" :name="testimonial.name"
       :text="testimonial.text" />
-    <div class="mt-4">Read all reviews -></div>
+    <div class="mt-10">Read all reviews -></div>
   </UContainer>
 </template>
 

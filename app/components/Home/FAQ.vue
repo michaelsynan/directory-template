@@ -29,8 +29,8 @@ const items = [{
 </script>
 
 <template>
-  <UContainer class="flex justify-center space-x-10 py-10 mb-20 flex-col max-w-4xl items-center">
-    <h2 class="text-4xl pb-16 font-bold">Frequently Asked Questions</h2>
+  <UContainer class="flex justify-center space-x-10 flex-col max-w-4xl items-center">
+    <h2 class="pb-16">Frequently Asked Questions</h2>
     <UAccordion :items="items" size="xl" variant="soft" class="!ml-0" />
   </UContainer>
 </template>

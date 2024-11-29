@@ -16,7 +16,9 @@
         <h1 class="text-white text-6xl">From Design to Marketing</h1>
         <h1 class="text-6xl text-primary-500">We Build It</h1>
       </div>
-      <p class="text-white text-xl mt-2">Cutting-edge design and development solutions.</p>
+      <p class="text-white text-xl mt-2 max-w-[60ch]">Cutting-edge design and development solutions crafted to take you
+        from ideas to
+        action.</p>
       <UButton color="primary" size="lg" class="mt-4 font-bold text-white" icon="i-heroicons-calendar-16-solid">
         Book
         My Free Strategy Session
