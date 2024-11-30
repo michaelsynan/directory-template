@@ -14,6 +14,11 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "dark",
   },
+  image: {
+    cloudflare: {
+      baseURL: "https://imagedelivery.net/q2nIRgCuWuc2K4JgVsWp8w/",
+    },
+  },
   ui: {
     safelistColors: ["dino", "juju"],
   },

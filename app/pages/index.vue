@@ -8,7 +8,7 @@
       <HomeAbout />
       <HomeProcess />
       <HomeLeads />
-      <HomeProfiles />
+      <HomeProfiles style="display: none;" class="hidden" />
       <HomeTestimonials />
       <HomeFAQ />
     </main>
