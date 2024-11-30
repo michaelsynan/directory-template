@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="">
-      <NuxtImg class="max-w-lg" src="/mock-up.png" />
+      <NuxtImg class="max-w-lg" width="200" height="400" src="/mock-up.png" />
     </div>
   </UContainer>
 </template>
