@@ -5,7 +5,7 @@
     <div class="flex flex-col gap-6">
       <h2>How Do I Get Started?</h2>
 
-      <div class="flex flex-row gap-8 align-center items-center">
+      <div class="flex flex-col md:flex-row gap-8 align-center items-center">
         <div class="flex flex-col gap-4">
           <NuxtImg src="/formwork-studios-happy-cafe.jpg" class="max-w-lg border-2 rounded" />
 

@@ -14,7 +14,7 @@ const cards = [
       <p>We help you cancel out the noise and focus on how to reach your goal as quickly and efficiently as possible.
       </p>
     </div>
-    <div class="flex flex-row justify-center items-stretch space-x-10">
+    <div class="flex flex-col md:flex-row justify-center items-stretch gap-10 ">
       <UCard v-for="(card, index) in cards" :key="index" class="flex-1 basis-1/3 bg-transparent text-white" :ui="{
         background: 'bg-white dark:bg-stone-900 dark:hover:bg-stone-800 transition-all',
         divide: 'divide-y divide-stone-200 dark:divide-stone-800 dark:hover:divide-stone-700 transition-all',

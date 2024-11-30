@@ -5,7 +5,7 @@
     </header>
     <main class="flex flex-col gap-44 mt-10 mb-20">
       <HomeProblem />
-      <HomeAbout />
+      <HomeSolutions />
       <HomeProcess />
       <HomeLeads />
       <HomeProfiles style="display: none;" class="hidden" />

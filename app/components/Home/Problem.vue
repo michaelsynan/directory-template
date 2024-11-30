@@ -1,13 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex justify-center items-start space-x-20">
-    <div class="text-white flex flex-col gap-4">
+  <UContainer class="flex flex-col md:flex-row justify-center items-start space-x-20">
+    <div class="text-white flex flex-col gap-4 max-w-md">
       <h2 class="flex flex-col gap-1.5 mb-4">
         <div class="leading-normal">Choosing the Right<br />
           Technology isn't Easy</div>
       </h2>
-
+      <p>There are many challenges that come with choosing the right technology for your business. Here are some of the
+        most common ones:</p>
       <!-- Bullet Points Section -->
       <ul class="space-y-3 text-lg">
         <li class="flex items-center">
