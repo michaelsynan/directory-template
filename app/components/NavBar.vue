@@ -18,9 +18,9 @@ watch(route, () => {
     class="w-full flex flex-col items-center bg-stone-900 text-white mb-4 shadow-sm bg-opacity-50 !z-100 fixed zfix p-2 md:p-0 backdrop-blur"
     aria-label="Main navigation">
     <div class="w-full flex flex-col md:flex-row justify-between text-lg">
-      <div class="flex justify-between items-center w-full md:mb-0">
+      <div class="flex justify-between items-center w-full md:mb-0 ml-1">
         <NuxtLink :to="'/'" class="font-medium zfix text-xl tracking-wider p-2">
-          <NuxtImg src="/logo.png" width="40" fit="cover" alt="Formwork Studios" />
+          <NuxtImg src="/logo.png" width="20" fit="cover" alt="Formwork Studios" />
         </NuxtLink>
 
         <button @click="toggleMenu" class="hamburger md:hidden zfix my-1" aria-label="Open menu">
