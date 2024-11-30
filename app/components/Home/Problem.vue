@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex flex-col md:flex-row justify-center items-start space-x-20">
+  <UContainer class="flex flex-col md:flex-row justify-center items-start gap-20">
     <div class="text-white flex flex-col gap-4 max-w-md">
       <h2 class="flex flex-col gap-1.5 mb-4">
         <div class="leading-normal">Choosing the Right<br />
@@ -26,8 +26,8 @@
       </ul>
     </div>
 
-    <div class="">
-      <NuxtImg class="max-w-xl rounded-2xl border-2 border-stone-200" src="/nyc-subway-n-train.png" />
+    <div class="items-center align-middle mx-auto">
+      <NuxtImg class="w-full max-w-xl rounded-2xl border-2 border-stone-200" src="/nyc-subway-n-train.png" />
     </div>
   </UContainer>
 </template>
