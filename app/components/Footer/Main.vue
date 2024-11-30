@@ -4,7 +4,7 @@
   <div id="footer" class-bak="border-t border-stone-500">
     <UContainer class="text-white pt-12 pb-8 flex flex-col items-center gap-10 justify-between">
       <div>
-        <NuxtImg src="/formwork-studios-logo-text.png" height="30" alt="Formwork Studios" />
+        <NuxtImg src="/formwork-studios-logo-text.png" height="30" fit="cover" alt="Formwork Studios" />
       </div>
       <FooterSocials />
       <div class="flex flex-col items-center gap-1">
