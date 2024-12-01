@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="flex">
-      <NuxtImg class="max-w-full md:max-w-lg" height="600" src="/mock-up.png" />
+      <NuxtImg class="max-w-full md:max-w-lg" height="600" fit="cover" src="/mock-up.png" />
     </div>
   </UContainer>
 </template>

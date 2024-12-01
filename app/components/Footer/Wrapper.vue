@@ -1,16 +1,18 @@
 <template>
-  <div class="relative h-[60vh]"
-    style="background-image: url('china-town-nyc.jpg'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center calc(100% + 60px);">
+  <footer>
+    <div class="relative h-[60vh]"
+      style="background-image: url('china-town-nyc.jpg'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center calc(100% + 60px);">
 
-    <!-- Black overlay -->
-    <div class="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-40"></div>
+      <!-- Black overlay -->
+      <div class="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-40"></div>
 
-    <!-- Gradient Strip -->
-    <div class="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black"></div>
+      <!-- Gradient Strip -->
+      <div class="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-black"></div>
 
-    <!-- Footer at the bottom -->
-    <FooterMain class="absolute bottom-0 left-0 right-0" />
-  </div>
+      <!-- Footer at the bottom -->
+      <FooterMain class="absolute bottom-0 left-0 right-0" />
+    </div>
+  </footer>
 </template>
 
 <style scoped>

@@ -29,7 +29,6 @@ const items = [{
 </script>
 <template>
   <UContainer class="max-w-4xl">
-
     <h2 class="pb-16 w-full text-center">Frequently Asked Questions</h2>
     <UAccordion color="dino" :items="items" size="xl" variant="soft" class="" />
   </UContainer>

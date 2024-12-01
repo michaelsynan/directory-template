@@ -11,7 +11,7 @@
     <NuxtLink to="https://www.pinterest.com/formworkstudios/" target="_blank" class="flex">
       <UIcon name="i-mdi-pinterest" class="h-6 w-6" />
     </NuxtLink>
-    <NuxtLink to="https://www.pinterest.com/formworkstudios/" target="_blank" class="flex">
+    <NuxtLink to="https://www.yelp.com/biz/formwork-studios-dunmore" target="_blank" class="flex">
       <UIcon name="i-mdi-yelp" class="h-6 w-6" />
     </NuxtLink>
   </div>

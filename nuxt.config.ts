@@ -3,12 +3,14 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  ssr: true,
   modules: [
     "@nuxt/ui",
     "@nuxt/image",
     "@nuxt/fonts",
     "@nuxt/eslint",
     "@nuxthub/core",
+    "@nuxt/content",
   ],
   css: ["~/assets/css/main.css"],
   colorMode: {
