@@ -27,10 +27,10 @@ const items = [{
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.'
 }]
 </script>
-
 <template>
-  <UContainer class="flex justify-center space-x-10 flex-col max-w-4xl items-center">
-    <h2 class="pb-16">Frequently Asked Questions</h2>
-    <UAccordion :items="items" size="xl" variant="soft" class="!ml-0" />
+  <UContainer class="max-w-4xl">
+
+    <h2 class="pb-16 w-full text-center">Frequently Asked Questions</h2>
+    <UAccordion color="dino" :items="items" size="xl" variant="soft" class="" />
   </UContainer>
 </template>

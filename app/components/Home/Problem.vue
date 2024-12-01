@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex flex-col md:flex-row justify-center items-start gap-20">
+  <UContainer class="flex flex-col md:flex-row justify-center items-start gap-10 md:gap-20">
     <div class="text-white flex flex-col gap-4 max-w-md">
       <h2 class="flex flex-col gap-1.5 mb-4">
         <div class="leading-normal">Choosing the Right<br />

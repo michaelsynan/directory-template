@@ -8,17 +8,17 @@ const cards = [
 
 <template>
   <UContainer class="flex justify-center items-stretch gap-10 flex-col">
-    <div class="flex flex-col items-center gap-10 justify-center pb-16">
+    <div class="flex flex-col items-center gap-10 justify-center pb-8">
       <h2 class="header">The Simple <span class="cool-underline font-bold header">Solutions</span> You're Looking For
       </h2>
       <p>We help you cancel out the noise and focus on how to reach your goal as quickly and efficiently as possible.
       </p>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-stretch gap-10">
-      <UCard v-for="(card, index) in cards" :key="index" class="flex-1 basis-1/3 bg-transparent text-white" :ui="{
+      <UCard v-for="(card, index) in cards" :key="index" class="flex-1 basis-1/3 bg-transparent text-white mx-auto" :ui="{
         background: 'bg-white dark:bg-stone-900 dark:hover:bg-stone-800 transition-all',
         divide: 'divide-y divide-stone-200 dark:divide-stone-800 dark:hover:divide-stone-700 transition-all',
-        ring: 'ring-1 ring-stone-200 dark:ring-stone-800 dark:hover:ring-juju-400 transition-all',
+        ring: 'ring-1 ring-stone-200 dark:ring-stone-800 dark:hover:ring-dino-400 transition-all',
         rounded: 'rounded-lg',
       }">
         <template #header>

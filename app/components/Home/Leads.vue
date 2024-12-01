@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex flex-col md:flex-row justify-center items-center space-x-40">
+  <UContainer class="flex flex-col-reverse md:flex-row justify-center items-center gap-20 md:gap-40 ">
     <div class="text-white flex flex-col gap-2 max-w-md">
       <h2 class="flex flex-col gap-1.5 mb-4 leading-snug">
         <div>Download Our <br /><span class="cool-underline header">Free Guide</span> to Using AI & Automation to Build
@@ -17,7 +17,7 @@
           </UInput>
         </div>
         <div class="py-2">
-          <UButton icon="i-mdi-download" size="lg" class="my-2 font-bold">Get My Free Guide
+          <UButton color="juju" icon="i-mdi-download" size="lg" class="my-2 font-bold">Get My Free Guide
           </UButton>
         </div>
       </div>
@@ -26,8 +26,8 @@
         <span>We do not share your personal information</span>
       </div>
     </div>
-    <div class="">
-      <NuxtImg class="max-w-lg" width="200" height="400" src="/mock-up.png" />
+    <div class="flex">
+      <NuxtImg class="max-w-full md:max-w-lg" height="600" src="/mock-up.png" />
     </div>
   </UContainer>
 </template>
