@@ -11,25 +11,26 @@
             running.
           </p>
           <ul class="space-y-6 text-lg">
-            <li class="flex  items-center p-2 rounded pr-6">
-              <UIcon name="i-tabler-circle-number-1-filled" class="w-8 h-8 mr-2 text-dino-500" />
+            <li class="flex items-start p-2 rounded">
+              <UIcon name="i-tabler-circle-number-1-filled" class="w-8 h-8 mr-2 text-dino-500 flex-shrink-0" />
               <div>
                 Free 30-minute consultation
               </div>
             </li>
-            <li class="flex items-center p-2">
-              <UIcon name="i-tabler-circle-number-2-filled" class="w-8 h-8 mr-2 text-dino-500" />
-              <div>
+            <li class="flex items-start p-2 w-full">
+              <UIcon name="i-tabler-circle-number-2-filled" class="w-8 h-8 mr-2 text-dino-500 flex-shrink-0" />
+              <div class="w-full">
                 If we're a good fit, we'll create a custom plan for you
               </div>
             </li>
-            <li class="flex  items-center p-2">
-              <UIcon name="i-tabler-circle-number-3-filled" class="w-8 h-8 mr-2 text-dino-500" />
+            <li class="flex items-start p-2">
+              <UIcon name="i-tabler-circle-number-3-filled" class="w-8 h-8 mr-2 text-dino-500 flex-shrink-0" />
               <div>
                 Rounds of reviews and feedback
               </div>
             </li>
           </ul>
+
           <UButton color="juju" size="lg" icon="i-heroicons-calendar-16-solid" class="max-w-max font-bold">Book My Free
             Strategy Session
           </UButton>

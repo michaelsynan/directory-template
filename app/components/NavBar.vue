@@ -23,7 +23,7 @@ watch(route, () => {
           <NuxtImg src="/logo.png" width="20" fit="cover" alt="Formwork Studios" />
         </NuxtLink>
 
-        <button @click="toggleMenu" class="hamburger md:hidden zfix my-1" aria-label="Open menu">
+        <button @click="toggleMenu" class="hamburger md:hidden zfix my-1 mr-4" aria-label="Open menu">
           <span :class="['hamburger-line', menuOpen ? 'transform' : 'ml-auto mt-0.5']"></span>
           <span :class="['hamburger-line', menuOpen ? 'transform' : 'ml-auto !w-4']"></span>
           <span :class="['hamburger-line', menuOpen ? 'transform' : 'ml-auto !w-3']"></span>

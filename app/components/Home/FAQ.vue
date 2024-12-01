@@ -30,6 +30,10 @@ const items = [{
 <template>
   <UContainer class="max-w-4xl">
     <h2 class="pb-16 w-full text-center">Frequently Asked Questions</h2>
-    <UAccordion color="dino" :items="items" size="xl" variant="soft" class="" />
+    <UAccordion :truncate="false" color="dino" :items="items" size="xl" variant="soft" class="!text-left" :ui="{
+      default: {
+        class: 'mb-1.5 w-full !items-start !text-left'
+      }
+    }" />
   </UContainer>
 </template>
