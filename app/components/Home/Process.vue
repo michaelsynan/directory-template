@@ -10,7 +10,7 @@
           <p class="max-w-[50ch] hidden">Our process is simple. It involves 3 easy steps to get your project up and
             running.
           </p>
-          <ul class="space-y-6 text-lg">
+          <ul class="flex flex-col gap-4 text-lg">
             <li class="flex items-start p-2 rounded">
               <UIcon name="i-tabler-circle-number-1-filled" class="w-8 h-8 mr-2 text-dino-500 flex-shrink-0" />
               <div>
