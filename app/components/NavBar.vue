@@ -46,7 +46,7 @@ watch(route, () => {
         <NuxtLink to="/blog" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Blog</NuxtLink>
-        <NuxtLink to="/contact" activeClass="underline"
+        <NuxtLink to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank" activeClass="underline"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex min-w-max  booking-button"
           prefetch>Book Now</NuxtLink>
       </div>
@@ -64,7 +64,7 @@ watch(route, () => {
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Services</NuxtLink>
           <NuxtLink to="/blog" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Blog</NuxtLink>
-          <NuxtLink to="/contact" activeClass="underline"
+          <NuxtLink to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Contact</NuxtLink>
         </div>
       </div>

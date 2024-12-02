@@ -7,6 +7,6 @@ author: "Formwork Studios"
 readingTime: "5 minutes"
 ---
 
-# Hello from content test blog
-
 ## This is the test blog content
+
+Some other text goes in here

@@ -10,6 +10,7 @@
       <HomeLeads class="flex-none w-full" />
       <HomeTestimonials class="flex-none w-full" />
       <HomeFAQ class="flex-none w-full" />
+      <HomeClosingCTA class="flex-none w-full" />
     </main>
   </div>
 </template>

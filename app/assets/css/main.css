@@ -6,6 +6,9 @@
   body {
     @apply bg-stone-950;
   }
+  h1 {
+    @apply text-4xl md:text-6xl font-bold leading-normal;
+  }
   h2 {
     @apply text-3xl md:text-4xl font-bold leading-normal;
   }
@@ -29,25 +32,17 @@ span {
 
 .cool-underline {
   position: relative;
-  display: inline-block; /* Makes the span conform to the content's width */
+  display: inline-block;
 }
 
 .cool-underline::after {
   content: "";
   display: block;
-  width: 100%; /* This now refers to the span's content width, not the container */
+  width: 100%;
   height: 3px;
   background-color: #f9a8d4;
   margin-top: 0.5rem;
   position: absolute;
   left: 0;
-  bottom: -0.1rem; /* Adjust this value based on your design needs */
+  bottom: -0.1rem;
 }
-
-/* p {
-  font-family: Roboto;
-} */
-
-/* body {
-  font-family: "source sans pro", sans-serif;
-} */
