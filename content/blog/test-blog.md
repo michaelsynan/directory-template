@@ -4,7 +4,7 @@ description: "This is some testing"
 published: true
 date: "2023-12-01"
 author: "Formwork Studios"
-slug: "test-blog"
+readingTime: "5 minutes"
 ---
 
 # Hello from content test blog
