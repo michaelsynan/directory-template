@@ -7,6 +7,9 @@ const items = [
   '/daily-grind.webp',
   '/mobile-app.webp',
   '/jazz.webp',
+  '/coding-nurse.webp',
+  '/yoga-pilates.webp',
+  '/michael.webp'
 ]
 </script>
 

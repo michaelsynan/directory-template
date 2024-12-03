@@ -10,7 +10,7 @@
       <FooterSocials />
       <div class="flex flex-col items-center gap-1">
         <div>
-          <NuxtLink to="/tos">Privacy Policy</NuxtLink> | <NuxtLink to="/tos">Terms of Service</NuxtLink>
+          <NuxtLink to="/privacy">Privacy Policy</NuxtLink> | <NuxtLink to="/tos">Terms of Service</NuxtLink>
         </div>
         <div>
           &copy; {{ new Date().getFullYear() }} Formwork Studios. All rights reserved.
