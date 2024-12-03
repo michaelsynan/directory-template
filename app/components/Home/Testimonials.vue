@@ -12,7 +12,7 @@ const testimonials: Testimonial[] = [
 </script>
 
 <template>
-  <UContainer class="flex flex-col md:flex-row gap-10 justify-center items-start w-full">
+  <UContainer class="flex flex-col md:flex-row gap-16 md:gap-10 justify-center items-start w-full">
     <HomeTestimonial v-for="(testimonial, index) in testimonials" :key="index" :name="testimonial.name"
       :text="testimonial.text" />
   </UContainer>

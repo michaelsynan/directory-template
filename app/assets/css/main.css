@@ -12,6 +12,9 @@
   h2 {
     @apply text-3xl md:text-4xl font-bold leading-normal;
   }
+  p {
+    @apply text-base md:text-lg leading-normal;
+  }
 }
 
 h1,

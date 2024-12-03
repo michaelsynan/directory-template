@@ -7,6 +7,7 @@
       <HomeProblem class="flex-none w-full" />
       <HomeSolutions class="flex-none w-full" />
       <HomeProcess class="flex-none w-full" />
+      <HomeCarousel />
       <HomeLeads class="flex-none w-full" />
       <HomeTestimonials class="flex-none w-full" />
       <HomeFAQ class="flex-none w-full" />
