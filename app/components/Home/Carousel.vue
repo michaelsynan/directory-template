@@ -1,16 +1,17 @@
 <script setup lang="ts">
 const items = [
-  'https://picsum.photos/600/800?random=1',
-  'https://picsum.photos/600/800?random=2',
-  'https://picsum.photos/600/800?random=3',
-  'https://picsum.photos/600/800?random=4',
-  'https://picsum.photos/600/800?random=5',
-  'https://picsum.photos/600/800?random=6'
+  '/video-photography-website.webp',
+  '/dashboard.webp',
+  '/hero-image.webp',
+  '/facial-serum-website.webp',
+  '/daily-grind.webp',
+  '/mobile-app.webp',
+  '/jazz.webp',
 ]
 </script>
 
 <template>
   <UCarousel v-slot="{ item }" :items="items">
-    <img :src="item" width="300" height="400" draggable="false">
+    <img :src="item" height="400" draggable="false" class="h-64">
   </UCarousel>
 </template>
