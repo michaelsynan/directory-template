@@ -11,10 +11,14 @@ const items = [
   '/yoga-pilates.webp',
   '/michael.webp'
 ]
+
 </script>
 
 <template>
-  <UCarousel v-slot="{ item }" :items="items">
-    <img :src="item" height="400" draggable="false" class="h-64">
-  </UCarousel>
+  <div class="w-full">
+    <UCarousel ref="carouselRef" v-slot="{ item }" :items="items">
+      <img :src="item" height="400" draggable="false" class="h-32 sm:h-44 md:h-64 border border-stone-500">
+    </UCarousel>
+
+  </div>
 </template>
