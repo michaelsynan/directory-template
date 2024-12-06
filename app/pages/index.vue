@@ -3,7 +3,7 @@
     <header>
       <HomeHero />
     </header>
-    <main class="flex flex-col gap-32 md:gap-44 mt-10 mb-20 mx-4">
+    <main class="flex flex-col gap-32 md:gap-48 mt-10 mb-20 mx-4">
       <HomeProblem class="flex-none w-full" />
       <HomeSolutions class="flex-none w-full" />
       <HomeProcess class="flex-none w-full" />

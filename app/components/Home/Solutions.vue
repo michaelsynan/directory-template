@@ -27,7 +27,7 @@ const cards = [
             {{ card.header }}
           </h3>
         </template>
-        <div class="h-32 p-4 mb-4 break-words">
+        <div class="h-32 p-4 mb-4 break-words leading-relaxed">
           {{ card.content }}
         </div>
         <!-- <template #footer>

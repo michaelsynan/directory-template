@@ -7,7 +7,8 @@
         <div class="leading-normal">Choosing the Right<br />
           Technology isn't Easy</div>
       </h2>
-      <p>There are many challenges that come with choosing the right technology for your business. Here are some of the
+      <p class="leading-relaxed">There are many challenges that come with choosing the right technology for your
+        business. Here are some of the
         most common ones:</p>
       <!-- Bullet Points Section -->
       <ul class="space-y-3 text-lg">

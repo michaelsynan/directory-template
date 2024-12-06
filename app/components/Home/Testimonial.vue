@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// Define props structure
+
 const props = defineProps<{
   name: string;
   text: string;
@@ -13,15 +13,13 @@ const props = defineProps<{
         <UIcon name="i-mdi-account" class="text-dino-400 h-12 w-12"></UIcon>
       </div>
     </div>
-    <p class="text-base italic">
-      "{{ props.text }}" <!-- Display text prop -->
+    <p class="text-base italic leading-relaxed">
+      "{{ props.text }}"
     </p>
     <p class="text-lg font-bold mt-4">
-      - {{ props.name }} <!-- Display name prop -->
+      - {{ props.name }}
     </p>
   </div>
 </template>
 
-<style scoped>
-/* Additional styling can be added here */
-</style>
+<style scoped></style>
