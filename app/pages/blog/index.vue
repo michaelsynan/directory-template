@@ -1,3 +1,12 @@
+<script setup lang="ts">
+const { data: blogs } = await useAsyncData('documents-list', () => {
+    return queryCollection('blogs')
+        .select('title', 'path', 'description')
+        .all()
+})
+</script>
+
+
 <template>
     <main class="text-white min-h-screen">
         <div class="bg-juju-950 py-40">
@@ -7,22 +16,7 @@
             </UContainer>
         </div>
         <UContainer class="pt-20">
-            <ContentList path="/blog" v-slot="{ list }">
-                <div v-for="article in list" :key="article._path" class="pb-10">
-                    <NuxtLink :to="`${article._path}`">
-                        <!-- Assuming each article has a 'slug' property for URL -->
-                        <h2 class="text-4xl">{{ article.title }}</h2>
-                    </NuxtLink>
-                    <pre class="flex flex-row text-stone-400 pb-3">
-                        <time :datetime="article.date">{{ article.date }}</time>
-                        <span>&nbsp;•&nbsp;</span>
-                        <span>{{ article.readingTime }}</span>
-                    </pre>
-                    <p>{{ article.description }}</p>
-                    <div>
-                    </div>
-                </div>
-            </ContentList>
+            <div>{{ blogs }}</div>
         </UContainer>
     </main>
 </template>
