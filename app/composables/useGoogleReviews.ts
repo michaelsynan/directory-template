@@ -1,3 +1,4 @@
-export const useGoogleReviews = () => {
-    return ref()
-  }
+export const useGoogleReviews = async () => {
+  const { data } = await useFetch("../api/googleReviews");
+  return data;
+};

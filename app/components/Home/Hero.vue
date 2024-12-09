@@ -18,7 +18,8 @@
         </h1>
 
       </div>
-      <p class="text-white text-lg md:text-xl mt-2 max-w-[60ch] leading-relaxed">Cutting-edge design and development
+      <p class="text-stone-300 text-xl md:text-2xl mt-2 max-w-[50ch] !leading-relaxed">Cutting-edge design and
+        development
         solutions crafted
         to take you
         from ideas to

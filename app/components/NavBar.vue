@@ -34,9 +34,7 @@ watch(route, () => {
         <NuxtLink to="/" activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           Home</NuxtLink>
-        <NuxtLink to="/work" activeClass="!bg-zinc-700"
-          class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
-          Work</NuxtLink>
+
         <NuxtLink to="/about" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
           About</NuxtLink>
@@ -56,8 +54,7 @@ watch(route, () => {
         <div class="flex flex-col items-start gap-8 -mt-8 pb-8">
           <NuxtLink to="/" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide">Home</NuxtLink>
-          <NuxtLink to="/work" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Work</NuxtLink>
+
           <NuxtLink to="/about" activeClass="underline"
             class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>About</NuxtLink>
           <NuxtLink to="/services" activeClass="underline"

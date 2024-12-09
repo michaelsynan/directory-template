@@ -8,7 +8,7 @@
           class="max-w-[80%] self-center mx-auto" alt="Formwork Studios" />
       </div>
       <FooterSocials />
-      <div class="flex flex-col items-center gap-1">
+      <div class="flex flex-col items-center gap-1 text-stone-400">
         <div>
           <NuxtLink to="/privacy">Privacy Policy</NuxtLink> | <NuxtLink to="/tos">Terms of Service</NuxtLink>
         </div>

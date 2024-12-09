@@ -11,7 +11,7 @@
       <div class="flex flex-col gap-0">
         <div class="flex flex-col items-start w-full">
           <label class="mb-1 text-sm font-medium text-stone-500">Email Address</label>
-          <UInput class="w-full" size="lg" type="text" color="primary" variant="outline"
+          <UInput class="w-full" size="lg" type="text" color="primary"
             :ui="{ placeholder: 'placeholder-stone-400 dark:placeholder-stone-600' }"
             placeholder="e.g. bill.gates@microsoft.com">
           </UInput>

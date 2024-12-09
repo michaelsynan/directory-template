@@ -11,7 +11,10 @@ const cards = [
     <div class="flex flex-col items-center gap-10 justify-center pb-8">
       <h2 class="header">The Simple <span class="cool-underline font-bold header">Solutions</span> You're Looking For
       </h2>
-      <p>We help you cancel out the noise and focus on how to reach your goal as quickly and efficiently as possible.
+      <p class="max-w-xl text-center text-stone-300">We help you cancel out the noise and focus on how to reach your
+        goal as quickly
+        and
+        efficiently as possible.
       </p>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-stretch gap-10">
@@ -27,7 +30,7 @@ const cards = [
             {{ card.header }}
           </h3>
         </template>
-        <div class="h-32 p-4 mb-4 break-words leading-relaxed">
+        <div class="h-32 p-4 mb-4 break-words leading-relaxed text-stone-300">
           {{ card.content }}
         </div>
         <!-- <template #footer>
