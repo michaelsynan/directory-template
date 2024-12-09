@@ -1,8 +1,8 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 
-const message = ref("");
 const result = await useGoogleReviews();
+const message = ref(result.value);
 watchEffect(() => {
   message.value = result.value;
 });
