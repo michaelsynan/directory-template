@@ -4,6 +4,8 @@ const props = defineProps<{
   name: string;
   text: string;
   image: string;
+  profession: string;
+  stars: number;
 }>();
 </script>
 
@@ -16,8 +18,12 @@ const props = defineProps<{
     <p class="text-base italic leading-relaxed">
       "{{ props.text }}"
     </p>
+    <UIcon v-for="(star, index) in stars" :key="index" name="i-mdi-star" class="w-4 h-4 text-yellow-300 -ml-0.5" />
     <p class="text-lg font-bold mt-4">
       - {{ props.name }}
+    </p>
+    <p class="text-sm opacity-50">
+      {{ props.profession }}
     </p>
   </div>
 </template>
