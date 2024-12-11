@@ -8,7 +8,7 @@ const cards = [
 
 <template>
   <UContainer class="flex justify-center items-stretch gap-10 flex-col">
-    <div class="flex flex-col items-center gap-10 justify-center pb-8">
+    <div class="flex flex-col items-center gap-8 justify-center pb-6">
       <h2 class="header">The Simple <span class="cool-underline font-bold header">Solutions</span> You're Looking For
       </h2>
       <p class="max-w-xl text-center text-stone-300">We help you cancel out the noise and focus on how to reach your
