@@ -17,20 +17,8 @@ const profiles: Profile[] = [
       Meet the Team
     </h2>
     <div class="flex flex-col items-start gap-10">
-      <TeamProfile
-        v-for="(profile, index) in profiles"
-        :key="index"
-        :name="profile.name"
-        :text="profile.text"
-        :image="profile.image"
-        class=""
-      />
+      <TeamProfile v-for="(profile, index) in profiles" :key="index" :name="profile.name" :text="profile.text"
+        :image="profile.image" class="" />
     </div>
   </UContainer>
 </template>
-
-<style scoped>
-/* Tailwind CSS handles styling */
-</style>
-
-<style scoped></style>
