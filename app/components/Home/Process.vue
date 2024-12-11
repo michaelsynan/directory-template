@@ -31,10 +31,7 @@
             </li>
           </ul>
 
-          <UButton color="juju" size="lg" icon="i-heroicons-calendar-16-solid" class="max-w-max font-bold"
-            to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank">Book My Free
-            Strategy Session
-          </UButton>
+          <SharedMainCTAButton class="max-w-max" />
         </div>
       </div>
     </div>

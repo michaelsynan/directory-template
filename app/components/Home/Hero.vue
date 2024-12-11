@@ -10,24 +10,18 @@
     <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent via-stone-950 to-stone-950">
     </div>
     <UContainer class="relative z-10 flex flex-col items-start justify-center h-full gap-4">
-      <UBadge color="dino" variant="outline" class="font-bold border-none hidden">Let's Work</UBadge>
+      <UBadge variant="outline" class="font-bold rounded-full border-none ">Expert Guidance Every Step of the Way
+      </UBadge>
       <div class="font-bold flex flex-col gap-4">
-        <h1 class="text-white text-5xl md:text-6xl !leading-snug max-w-[11ch] md:max-w-none">
-          From Design to Marketing <br />
-          <span class="text-5xl md:text-6xl text-dino-500">We Build It</span>
+        <h1 class="text-white text-5xl md:!text-7xl !leading-2 max-w-none">
+          When We Build It, <br />
+          <span class="!text-5xl md:!text-7xl text-dino-500 header">They Will Come</span>
         </h1>
 
       </div>
-      <p class="text-stone-300 text-xl md:text-2xl mt-2 max-w-[50ch] !leading-relaxed">Cutting-edge design and
-        development
-        solutions crafted
-        to take you
-        from ideas to
-        action.</p>
-      <UButton color="juju" size="lg" class="mt-4 font-bold text-white" icon="i-heroicons-calendar-16-solid">
-        Book
-        My Free Strategy Session
-      </UButton>
+      <p class="text-stone-300 text-xl md:text-2xl mt-2 max-w-[40ch] !leading-relaxed">Your design, development,
+        marketing and AI solutions all in one place.</p>
+      <SharedMainCTAButton />
       <div>
         <GoogleReview />
       </div>

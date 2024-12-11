@@ -5,10 +5,16 @@
       to help your
       business grow, with zero obligation.
     </p>
-    <UButton color="juju" size="lg" icon="i-heroicons-calendar-16-solid" class="max-w-max font-bold"
-      to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank">Book My Free
-      Strategy Session
-    </UButton>
+    <SharedMainCTAButton />
+    <div class="font-bold flex flex-row gap-4">
+      <span class="text-sm flex items-center">
+        <UIcon name="i-mdi-check-circle" class="mr-1 text-gree-500" color="green-500" /> no commitment
+      </span>
+      <span class="text-sm flex items-center">
+        <UIcon name="i-mdi-check-circle" class="mr-1 text-gree-500" /> actionable guidance
+      </span>
+    </div>
+
   </UContainer>
 </template>
 
