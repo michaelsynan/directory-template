@@ -8,10 +8,10 @@
     <SharedMainCTAButton />
     <div class="font-bold flex flex-row gap-4">
       <span class="text-sm flex items-center">
-        <UIcon name="i-mdi-check-circle" class="mr-1 text-gree-500" color="green-500" /> no commitment
+        <UIcon name="i-mdi-check-circle" class="mr-1 text-green-500" /> no commitment
       </span>
       <span class="text-sm flex items-center">
-        <UIcon name="i-mdi-check-circle" class="mr-1 text-gree-500" /> actionable guidance
+        <UIcon name="i-mdi-check-circle" class="mr-1 text-green-500" /> actionable guidance
       </span>
     </div>
 
