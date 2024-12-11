@@ -4,7 +4,7 @@ import { withDefaults } from 'vue'
 const props = withDefaults(defineProps<{
   heading: string,
   description: string,
-  image: string
+  image?: string
 }>(), {
   image: '/manhattan-skyline-nyc.jpg'
 })

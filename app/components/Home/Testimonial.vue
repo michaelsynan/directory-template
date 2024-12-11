@@ -18,7 +18,7 @@ const props = defineProps<{
     <p class="text-base italic leading-relaxed">
       "{{ props.text }}"
     </p>
-    <UIcon v-for="(star, index) in stars" :key="index" name="i-mdi-star" class="w-4 h-4 text-yellow-300 -ml-0.5 mt-2" />
+    <UIcon v-for="(star, index) in stars" :key="index" name="i-mdi-star" class="w-4 h-4 text-yellow-300 -ml-0.5 mt-3" />
     <p class="text-lg font-bold mt-2">
       {{ props.name }}
     </p>

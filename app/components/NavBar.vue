@@ -19,9 +19,9 @@ watch(route, () => {
     aria-label="Main navigation">
     <div class="w-full flex flex-col md:flex-row justify-between text-lg">
       <div class="flex justify-between items-center w-full md:mb-0 ml-1">
-        <NuxtLink :to="'/'" class="font-medium zfix text-xl tracking-wider p-2">
+        <ULink :to="'/'" class="font-medium zfix text-xl tracking-wider p-2">
           <NuxtImg src="/logo.png" width="20" fit="cover" alt="Formwork Studios" />
-        </NuxtLink>
+        </ULink>
 
         <button @click="toggleMenu" class="hamburger md:hidden zfix my-1 mr-4" aria-label="Open menu">
           <span :class="['hamburger-line', menuOpen ? 'transform' : 'ml-auto mt-0.5']"></span>
@@ -31,38 +31,38 @@ watch(route, () => {
 
       </div>
       <div class="hidden md:flex">
-        <NuxtLink to="/" activeClass="!bg-zinc-700"
+        <ULink to="/" activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
-          Home</NuxtLink>
+          Home</ULink>
 
-        <NuxtLink to="/about" prefetch activeClass="!bg-zinc-700"
+        <ULink to="/about" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
-          About</NuxtLink>
-        <NuxtLink to="/services" prefetch activeClass="!bg-zinc-700"
+          About</ULink>
+        <ULink to="/services" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
-          Services</NuxtLink>
-        <NuxtLink to="/blog" prefetch activeClass="!bg-zinc-700"
+          Services</ULink>
+        <ULink to="/blog" prefetch activeClass="!bg-zinc-700"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-zinc-800 justify-center items-center flex">
-          Blog</NuxtLink>
-        <NuxtLink to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank" activeClass="underline"
+          Blog</ULink>
+        <ULink to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank" activeClass="underline"
           class="!font-inter px-4 py-2 text-base font-medium tracking-widest text-gray-300 hover:text-gray-100 transition-colors hover:bg-juju-500 bg-juju-700 justify-center items-center flex min-w-max  booking-button"
-          prefetch>Book Now</NuxtLink>
+          prefetch>Book Now</ULink>
       </div>
       <div id="mobile-nav"
         :class="{ 'opacity-0 pointer-events-none': !menuOpen, 'opacity-100 pointer-events-auto': menuOpen }"
         class="fixed inset-0 bg-gradient-to-bl from-stone-950 to-stone-900 flex flex-col items-start px-4 justify-center  space-y-8 transition-opacity duration-300 ease-in-out pt-0 text-2xl h-screen max-h-screen">
         <div class="flex flex-col items-start gap-8 -mt-8 pb-8">
-          <NuxtLink to="/" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide">Home</NuxtLink>
+          <ULink to="/" activeClass="underline"
+            class="hover:underline transition-all duration-100 text-center tracking-wide">Home</ULink>
 
-          <NuxtLink to="/about" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>About</NuxtLink>
-          <NuxtLink to="/services" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Services</NuxtLink>
-          <NuxtLink to="/blog" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Blog</NuxtLink>
-          <NuxtLink to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank" activeClass="underline"
-            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Contact</NuxtLink>
+          <ULink to="/about" activeClass="underline"
+            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>About</ULink>
+          <ULink to="/services" activeClass="underline"
+            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Services</ULink>
+          <ULink to="/blog" activeClass="underline"
+            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Blog</ULink>
+          <ULink to="https://calendly.com/formworkstudios/free-strategy-call" target="_blank" activeClass="underline"
+            class="hover:underline transition-all duration-100 text-center tracking-wide" prefetch>Contact</ULink>
         </div>
       </div>
     </div>
