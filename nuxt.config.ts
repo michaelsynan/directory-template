@@ -1,29 +1,35 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: [
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxt/fonts',
+    '@nuxt/eslint',
+    '@nuxthub/core',
+    '@nuxt/content',
+    '@nuxt/scripts',
+  ],
+  ssr: true,
+  devtools: { enabled: true },
+  css: ['~/assets/css/main.css'],
+  colorMode: {
+    preference: 'dark',
+  },
+  ui: {
+    safelistColors: ['dino', 'juju'],
+  },
   future: {
     compatibilityVersion: 4,
   },
-  ssr: true,
-  modules: [
-    "@nuxt/ui",
-    "@nuxt/image",
-    "@nuxt/fonts",
-    "@nuxt/eslint",
-    "@nuxthub/core",
-    "@nuxt/content",
-  ],
-  css: ["~/assets/css/main.css"],
-  colorMode: {
-    preference: "dark",
+  compatibilityDate: '2024-11-01',
+  eslint: {
+    config: {
+      stylistic: true,
+    },
   },
   image: {
     cloudflare: {
-      baseURL: "https://imagedelivery.net/q2nIRgCuWuc2K4JgVsWp8w/",
+      baseURL: 'https://imagedelivery.net/q2nIRgCuWuc2K4JgVsWp8w/',
     },
   },
-  ui: {
-    safelistColors: ["dino", "juju"],
-  },
-  compatibilityDate: "2024-11-01",
-  devtools: { enabled: true },
-});
+})

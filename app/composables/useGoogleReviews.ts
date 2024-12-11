@@ -1,4 +1,5 @@
 export const useGoogleReviews = async () => {
-  const { data } = await useFetch("../api/googleReviews");
-  return data;
-};
+  // const { data } = await useFetch("../api/googleReviews");
+  const data = 'Hello from composable'
+  return data
+}

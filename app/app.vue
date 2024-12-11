@@ -1,6 +1,9 @@
 <template>
   <NavBar />
-  <transition name="fade" mode="out-in">
+  <transition
+    name="fade"
+    mode="out-in"
+  >
     <NuxtPage />
   </transition>
   <FooterWrapper />

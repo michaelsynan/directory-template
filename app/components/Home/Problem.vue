@@ -4,33 +4,49 @@
   <UContainer class="flex flex-col md:flex-row justify-center items-start gap-10 md:gap-20">
     <div class="text-white flex flex-col max-w-md">
       <h2 class="flex flex-col mb-2">
-        <div class="leading-normal">Choosing the Right<br />
-          Technology isn't Easy</div>
+        <div class="leading-normal">
+          Choosing the Right<br>
+          Technology isn't Easy
+        </div>
       </h2>
-      <p class="!leading-relaxed mb-4 "><strong>There are many challenges that come with choosing the right technology
+      <p class="!leading-relaxed mb-4 ">
+        <strong>There are many challenges that come with choosing the right technology
           for
           your
           business.</strong> Here are some of the
-        most common ones:</p>
+        most common ones:
+      </p>
       <!-- Bullet Points Section -->
       <ul class="space-y-3 text-lg">
         <li class="flex items-center">
-          <UIcon name="i-mdi-alert-circle" class="w-6 h-6 mr-2 text-dino-400"></UIcon>
+          <UIcon
+            name="i-mdi-alert-circle"
+            class="w-6 h-6 mr-2 text-dino-400"
+          />
           <span>Too many high-cost subscriptions</span>
         </li>
         <li class="flex items-center">
-          <UIcon name="i-mdi-alert-circle" class="w-6 h-6 mr-2 text-dino-400"></UIcon>
+          <UIcon
+            name="i-mdi-alert-circle"
+            class="w-6 h-6 mr-2 text-dino-400"
+          />
           <span>Unclear way to measure results</span>
         </li>
         <li class="flex items-center">
-          <UIcon name="i-mdi-alert-circle" class="w-6 h-6 mr-2 text-dino-400"></UIcon>
+          <UIcon
+            name="i-mdi-alert-circle"
+            class="w-6 h-6 mr-2 text-dino-400"
+          />
           <span>Unreliable & untrustworthy marketers</span>
         </li>
       </ul>
     </div>
 
     <div class="items-center align-middle mx-auto">
-      <NuxtImg class="w-full max-w-xl rounded-2xl border-2 border-stone-200" src="/nyc-subway-n-train.png" />
+      <NuxtImg
+        class="w-full max-w-xl rounded-2xl border-2 border-stone-200"
+        src="/nyc-subway-n-train.png"
+      />
     </div>
   </UContainer>
 </template>
