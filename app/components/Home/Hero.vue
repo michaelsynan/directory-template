@@ -31,7 +31,6 @@
 
 <style scoped>
 .bg-gradient-to-b {
-
   background-image: linear-gradient(to bottom, transparent 60%, #0c0a09 90%, #0c0a09 100%);
 }
 </style>
