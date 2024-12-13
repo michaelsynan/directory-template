@@ -1,17 +1,8 @@
-<script setup lang="ts"></script>
-
 <template>
   <main class="text-white min-h-screen">
-    <SharedHero
-      heading="this is the heading"
-      description="this is description"
-      image="/nyc-subway-n-train.png"
-    />
-
+    <SharedHero heading="this is the heading" description="this is description" image="/nyc-subway-n-train.png" />
     <UContainer class="pt-20 flex flex-col gap-4">
       blah
     </UContainer>
   </main>
 </template>
-
-<style scoped></style>

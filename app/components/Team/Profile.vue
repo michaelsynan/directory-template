@@ -16,7 +16,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row p-6 m-2 gap-4">
+  <div class="flex flex-col md:flex-row py-6 my-2 gap-4">
     <NuxtImg :src="props.image" class="rounded object-cover" />
     <div class="max-w-max flex flex-col gap-4">
       <div class="text-2xl font-bold">
@@ -25,9 +25,9 @@ onMounted(() => {
       <p class="text-stone-500">
         {{ props.text }}
       </p>
-      <div v-if="props.socials" class="text-stone-500">
+      <div v-if="props.socials" class="text-stone-500 flex flex-row gap-2">
         <p v-for="(social, index) in props.socials" :key="index">
-          <a :href="social">{{ social }}</a>
+          <UIcon :name="`i-mdi-${social.company}`" class="w-6 h-6" />
         </p>
       </div>
       <slot>

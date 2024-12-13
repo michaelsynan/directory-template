@@ -1,12 +1,11 @@
 <template>
-  <NavBar />
-  <transition
-    name="fade"
-    mode="out-in"
-  >
-    <NuxtPage />
-  </transition>
-  <FooterWrapper />
+  <div id="page-wrapper" class="flex flex-col min-h-screen">
+    <NavBar />
+    <transition name="fade" mode="out-in">
+      <NuxtPage class="flex-grow" />
+    </transition>
+    <FooterWrapper />
+  </div>
 </template>
 
 <style>

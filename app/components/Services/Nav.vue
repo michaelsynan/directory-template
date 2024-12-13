@@ -21,5 +21,3 @@ const navLinks = [
     </ul>
   </div>
 </template>
-
-<style scoped></style>

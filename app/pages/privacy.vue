@@ -2,7 +2,7 @@
 
 <template>
   <UContainer class="flex flex-col md:flex-row gap-16 md:gap-10 justify-center items-start w-full">
-    <div>
+    <div class="mt-20">
       No Cookies: Unlike many, our site doesn't use cookies. Your browsing here leaves no digital crumbs. No Tracking:
       We
       don't track your activities. Your online journey stays your own. Contact Form Use Only: We collect emails via

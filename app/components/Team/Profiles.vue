@@ -9,8 +9,8 @@ interface Profile {
 const profiles: Profile[] = [
   {
     name: 'Michael Synan', text: 'Michael has been instrumental in revamping our web design to be more modern and user-friendly.', image: '/michael_synan.webp', socials: [
-      { company: 'GitHub', url: 'https://github.com' },
-      { company: 'LinkedIn', url: 'https://linkedin.com' }
+      { company: 'github', url: 'https://github.com' },
+      { company: 'linkedin', url: 'https://linkedin.com' }
     ]
   },
   { name: 'Cecily Nicole Gaither', text: 'Cecily has led our marketing team to new heights with innovative strategies and strong leadership.', image: 'michael_synan.webp' },
@@ -18,7 +18,7 @@ const profiles: Profile[] = [
 </script>
 
 <template>
-  <UContainer class="flex flex-col justify-center items-center">
+  <UContainer class="flex flex-col !px-0">
     <div class="my-20 w-full flex flex-col gap-4">
       <h2>
         Meet the Team
