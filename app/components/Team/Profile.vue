@@ -27,7 +27,7 @@ onMounted(() => {
       </p>
       <div v-if="props.socials" class="text-stone-500">
         <p v-for="(social, index) in props.socials" :key="index">
-          social <a :href="social">{{ social }}</a>
+          <a :href="social">{{ social }}</a>
         </p>
       </div>
       <slot>

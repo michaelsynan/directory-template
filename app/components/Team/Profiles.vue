@@ -3,11 +3,16 @@ interface Profile {
   name: string
   text: string
   image: string
-  socials?: Array<string>
+  socials?: Array<object>
 }
 
 const profiles: Profile[] = [
-  { name: 'Michael Synan', text: 'Michael has been instrumental in revamping our web design to be more modern and user-friendly.', image: '/michael_synan.webp', socials: ['https://github.com', 'https://linkedin.com'] },
+  {
+    name: 'Michael Synan', text: 'Michael has been instrumental in revamping our web design to be more modern and user-friendly.', image: '/michael_synan.webp', socials: [
+      { company: 'GitHub', url: 'https://github.com' },
+      { company: 'LinkedIn', url: 'https://linkedin.com' }
+    ]
+  },
   { name: 'Cecily Nicole Gaither', text: 'Cecily has led our marketing team to new heights with innovative strategies and strong leadership.', image: 'michael_synan.webp' },
 ]
 </script>
