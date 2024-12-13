@@ -9,9 +9,9 @@ const navLinks = [
 
 <template>
   <div>
-    <ul class="flex flex-row gap-10 text-xl">
+    <ul class="flex flex-row gap-4 md:gap-10 text-base md:text-xl">
       <li v-for="navLink in navLinks" :key="navLink.link">
-        <div class="flex flex-row gap-10">
+        <div class="flex flex-row gap-4 md:gap-10">
           <NuxtLink :to="navLink.link" class="flex gap-10">
             <span>{{ navLink.title }}</span>
           </NuxtLink>
