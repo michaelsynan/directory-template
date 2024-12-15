@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <UContainer class="flex flex-col md:flex-row gap-16 md:gap-10 justify-center items-start w-full py-20">
+  <UContainer class="flex flex-col md:flex-row gap-16 md:gap-10 justify-center items-start w-full py-20 text-white">
     <div class="mt-20 flex flex-col gap-8 max-w-4xl">
       <h1>Privacy Policy</h1>
       <div>

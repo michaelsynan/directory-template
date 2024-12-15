@@ -4,7 +4,7 @@
     <div class="sticky top-10 bg-stone-900 backdrop-blur z-10 w-full p-2 md:p-4 bg-opacity-40">
       <ServicesNav />
     </div>
-    <UContainer class="flex flex-col gap-16 md:gap-10 justify-center items-start w-full my-20 !px-0">
+    <UContainer class="flex flex-col gap-16 md:gap-10 justify-center items-start w-full my-20 md:px-0">
       <div id="all-services" class=" flex flex-col gap-16 w-full">
         <div id="website-design"
           class="flex flex-col md:flex-row w-full justify-between pt-4 border-stone-800 border-t-2">
