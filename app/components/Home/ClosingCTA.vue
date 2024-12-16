@@ -11,10 +11,10 @@
     <SharedMainCTAButton />
     <div class="font-bold flex flex-col md:flex-row gap-4">
       <span class="text-sm flex items-center">
-        <UIcon name="i-mdi-check-circle" class="mr-1 text-green-500 w-5 h-5" /> no commitment
+        <UIcon name="i-mdi-check-circle" class="mr-1 text-dino-500 w-5 h-5" /> no commitment
       </span>
       <span class="text-sm flex items-center">
-        <UIcon name="i-mdi-check-circle" class="mr-1 text-green-500 w-5 h-5" /> actionable guidance
+        <UIcon name="i-mdi-check-circle" class="mr-1 text-dino-500 w-5 h-5" /> actionable guidance
       </span>
     </div>
   </UContainer>

@@ -4,6 +4,7 @@ const props = defineProps<{
   text: string
   image: string
   socials?: Array<string>
+  website?: string
 }>()
 
 onMounted(() => {
@@ -16,7 +17,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row py-6 my-2 gap-4">
+  <div class="flex flex-col md:flex-row py-6 my-2 gap-6">
     <NuxtImg :src="props.image" class="rounded object-cover" />
     <div class="max-w-max flex flex-col gap-4">
       <div class="text-2xl font-bold">
@@ -25,9 +26,12 @@ onMounted(() => {
       <p class="text-stone-500">
         {{ props.text }}
       </p>
+      <ULink to="props.website">{{ props.website }}</ULink>
       <div v-if="props.socials" class="text-stone-500 flex flex-row gap-2">
         <p v-for="(social, index) in props.socials" :key="index">
-          <UIcon :name="`i-mdi-${social.company}`" class="w-6 h-6" />
+          <ULink :to="social.url" target="_blank">
+            <UIcon :name="`i-mdi-${social.company}`" class="w-7 h-7 text-stone-100" />
+          </ULink>
         </p>
       </div>
       <slot>
