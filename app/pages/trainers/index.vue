@@ -1,4 +1,3 @@
-nr d
 <script setup lang="ts">
 const { data: blogs } = await useAsyncData('documents-list', () => {
   return queryCollection('blogs')

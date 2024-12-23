@@ -7,23 +7,20 @@
     <div class="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-60" />
     <!-- Gradient Strip -->
     <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent via-stone-950 to-stone-950" />
-    <UContainer class="relative z-10 flex flex-col items-start justify-center h-full gap-4">
+    <UContainer class="relative z-10 flex flex-col items-center justify-center h-full gap-4">
       <UBadge variant="outline" class="font-bold rounded-full border-none ">
-        Expert Guidance Every Step of the Way
+        Your Home for Pilates Teacher Training
       </UBadge>
       <div class="font-bold flex flex-col gap-4">
-        <h1 class="text-white text-5xl md:!text-7xl !leading-2 max-w-none">
-          When We Build It, <br>
-          <span class="!text-5xl md:!text-7xl text-dino-500 header">They Will Come</span>
+        <h1 class="text-white text-5xl md:!text-7xl !leading-2 max-w-none text-center">
+          A Place for All Pilates <br>
+          <span class="!text-5xl md:!text-7xl text-dino-500 header">Teacher Trainers</span>
         </h1>
       </div>
-      <p class="text-stone-300 text-xl md:text-2xl mt-2 max-w-[40ch] !leading-relaxed">
-        Your design, development,
-        marketing and AI solutions all in one place.
-      </p>
+
       <SharedMainCTAButton />
       <div>
-        <GoogleReview />
+        <SharedSmallReviews />
       </div>
     </UContainer>
   </div>

@@ -10,7 +10,7 @@ const cards = [
   <UContainer class="flex justify-center items-stretch gap-10 flex-col">
     <div class="flex flex-col items-center gap-8 justify-center pb-6">
       <h2 class="header">
-        The Simple <span class="cool-underline font-bold header">Solutions</span> You're Looking For
+        The Only Place to Find the Best Pilates Teacher Trainers
       </h2>
       <p class="max-w-xl text-center text-stone-300">
         We help you cancel out the noise and focus on how to reach your
@@ -20,27 +20,19 @@ const cards = [
       </p>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-stretch gap-10">
-      <UCard
-        v-for="(card, index) in cards"
-        :key="index"
-        class="flex-1 basis-1/3 bg-transparent text-white mx-auto transition-all"
-        :ui="{
+      <UCard v-for="(card, index) in cards" :key="index"
+        class="flex-1 basis-1/3 bg-transparent text-white mx-auto transition-all" :ui="{
           background: 'bg-white dark:bg-stone-900 transition-all',
           divide: 'divide-y divide-stone-200 dark:divide-stone-700 transition-all',
           ring: 'ring-1 ring-stone-200 dark:ring-stone-700 transition-all',
           rounded: 'rounded-lg',
-        }"
-        :class="{
+        }" :class="{
           'hover:bg-gradient-to-tr hover:from-stone-900 hover:via-stone-800 hover:to-stone-800 transition-all':
             true,
-        }"
-      >
+        }">
         <template #header>
           <h3 class="h-8 p-2 rounded flex items-center gap-4 text-lg">
-            <UIcon
-              :name="card.icon"
-              class="w-6 h-6"
-            />
+            <UIcon :name="card.icon" class="w-6 h-6" />
             {{ card.header }}
           </h3>
         </template>

@@ -7,7 +7,7 @@
     @apply bg-stone-950;
   }
   h1 {
-    @apply text-4xl md:text-6xl font-bold leading-normal;
+    @apply text-4xl md:text-6xl font-bold leading-normal tracking-wide;
   }
   h2 {
     @apply text-3xl md:text-4xl font-bold leading-normal pb-2;
@@ -28,7 +28,7 @@ h4,
 h5,
 h6,
 .header {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Righteous", sans-serif;
 }
 
 p,
