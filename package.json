@@ -30,6 +30,6 @@
     "@nuxt/fonts": "^0.10.2",
     "eslint": "^9.15.0",
     "typescript": "^5.7.2",
-    "wrangler": "^3.91.0"
+    "wrangler": "^3.114.17"
   }
 }
